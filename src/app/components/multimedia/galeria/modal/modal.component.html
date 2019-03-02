@@ -1,0 +1,13 @@
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title text-center">@{{foto.nombre}}</h5>
+    <span>Vía {{foto.fuente | titlecase}} <i class="fa fa-{{foto.fuente}}"></i></span>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <img src="/assets/img/parque/galeria/foto{{img}}.jpg" class="img-rounded img-responsive mb-4"  alt="Rounded Image">
+    <p>{{foto.descripcion}}</p>
+  </div>
+</div>

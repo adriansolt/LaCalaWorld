@@ -1,0 +1,75 @@
+<div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/parque2.jpg');">
+    <div class="filter"></div>
+    <div class="container">
+        <div class="motto text-center">
+            <h1 class="font-weight-bold">Servicios</h1>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="section text-center pt-3 pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="section" id="carousel">
+                    <div class="container">
+                        <div class="tim-title mb-5">
+                            <h3>Todo tipo de restaurantes, kioskos...</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 mr-auto ml-auto">
+                                <div class="card page-carousel">
+                                    <ngb-carousel>
+                                        <ng-template *ngFor="let i of [1,2,3,4,5,6]" ngbSlide>
+                                            <img src="./assets/img/parque/servicios/servicio{{i}}.JPG" alt="Random first slide">
+                                        </ng-template>
+                                    </ngb-carousel>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-gray text-center pt-2 pb-4">
+        <div class="container">
+            <h2 class="title">Almuerza o cena en algunos de nuestros restaurantes de todos los paises</h2>
+            <app-servicios-list></app-servicios-list>
+        </div>
+    </div>
+
+    <div class="section landing-section pt-0 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mr-auto ml-auto">
+                    <h2 class="text-center mb-5">
+                        <div class="info">
+                            <div class="icon icon-danger text-center">
+                                <i class="nc-icon nc-shop"></i>
+                            </div>
+                        </div>
+                        Souvenirs
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            El parque de atracciones La Cala World ofrece entre sus servicios
+                            tiendas con un amplio catálago para que nuestros clientes regresen
+                            a casa con un recuerdo especial de su paso por el parque.
+
+                            En la tienda del parque tenemos productos al gusto de cualquier tipo de consumidor.
+                            Encontramos así cremas solares y bronceadores para proteger a niños y mayores de un
+                            día de sol intenso. Peluches y distintos juguetes entretendrán a los más jóvenes y los que
+                            lo deseen podrán llevarse a casa una de nuestras tazas, jarras, lápices y demás
+                            suvenir de La Cala World. A parte de esto, nuestra tienda pone a su disposición cajas
+                            de seguridad en las que guardar sus objetos de valor.
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/assets/img/parque/souvenirs.jpg" class="img-rounded img-responsive mb-4" alt="Rounded Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

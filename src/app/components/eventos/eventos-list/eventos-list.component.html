@@ -1,0 +1,5 @@
+<div class="row justify-content-center">
+<div *ngFor="let evento of eventos; let i = index" class="col-md-4">
+  <app-evento-detail [evento]="evento"></app-evento-detail>  
+</div>
+</div>

@@ -1,0 +1,5 @@
+<div class="row justify-content-center">
+    <div *ngFor="let promocion of promociones; let i=index" class="col-md-4">
+        <app-promociones-detail [promocion]="promocion"></app-promociones-detail>
+    </div>
+  </div>

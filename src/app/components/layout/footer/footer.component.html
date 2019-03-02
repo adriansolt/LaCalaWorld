@@ -1,0 +1,22 @@
+<footer class="footer">
+    <div class="container">
+        <div class="row justify-content-between">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="">BK2</a></li>
+                    <li><a href="">Coltán Fuengirola</a></li>
+                    <li><a href="">MQZ Hotels</a></li>
+                </ul>
+            </nav>
+            <nav class="credits footer-nav">
+                <ul>
+                    <li><a [routerLink]="['/info']" routerLinkActive="router-link-active" >Información</a></li>
+                    <li><span class="copyright">
+                            © {{test | date: 'yyyy'}}
+                        </span></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </div>
+</footer>

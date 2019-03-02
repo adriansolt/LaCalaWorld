@@ -1,0 +1,128 @@
+<div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/parque6.jpg');">
+  <div class="filter"></div>
+  <div class="container">
+      <div class="motto text-center">
+          <h1 class="font-weight-bold">Ven y visítanos</h1>
+      </div>
+  </div>  
+</div>
+<div class="main">
+  <div class="section text-center">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-8 mr-auto ml-auto">
+              <h2 class="title">Horarios, precios y mapa</h2>
+              <h5 class="description">
+                  Puedes comprar tu entrada en taquilla o si quieres, llama a los números de abajo para reservarla y así evitar colas
+              </h5>
+              <br>
+              <button type="button" class="btn btn-outline-danger mb-3 btn-lg">+34635102425</button>
+              <button type="button" class="btn btn-outline-danger mb-3 btn-lg ml-sm-5">+34622618115</button>
+          </div>
+      </div>
+      <br/><br/>
+      <div class="row text-center">
+          <div class="col-md-4">
+              <div class="info">
+                  <div class="icon icon-danger">
+                      <i class="nc-icon nc-calendar-60"></i>
+                  </div>
+                  <div class="description">
+                      <h4 class="info-title">Calendario</h4>
+                      <p class="description">
+                        Tenemos el parque abierto los meses de primavera, verano y otoño. 
+                        Durante el invierno, sólo se mantendrá abierto el teatro del parque para los espectáculos.
+                      </p>
+                      <a [routerLink]="['/eventos']" routerLinkActive="router-link-active"  class="btn btn-link btn-danger">Más info</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="info">
+                  <div class="icon icon-danger">
+                      <i class="nc-icon nc-watch-time"></i>
+                  </div>
+                  <div class="description">
+                      <h4 class="info-title">Horario</h4>
+                      <p class="description">El parque permanecerá abierto desde las 10:00 hasta las 18:00. Durante el invierno
+                        tendrá un horario especial sujeto a cambios.
+                      </p>
+                      <a href="" class="btn btn-link btn-danger">Más info</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="info">
+                  <div class="icon icon-danger">
+                      <i class="nc-icon nc-map-big"></i>
+                  </div>
+                  <div class="description">
+                      <h4 class="info-title">Mapa</h4>
+                      <p class="description">En la entrada daremos a cada cliente un mapa para que puedan recorrerse el
+                        parque con más facilidad. Si lo desean, pueden descargarse un documento pdf para ir mejores preparados.
+                      </p>
+                      <a href="#" class="btn btn-link btn-danger">Más info</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+<div class="section section-dark text-center">
+  <div class="container">
+      <h2 class="title mb-5">Precios</h2>
+      <div class="row text-center">
+          <div class="col-md-4">
+              <div class="info">
+                  <div class="icon icon-danger">
+                      <i class="nc-icon nc-paper"></i>
+                  </div>
+                  <div class="description">
+                      <h4 class="info-title">Entrada individual</h4>
+                      <p class="description">
+                        La entrada por un dia en el parque por persona.
+                      </p>
+                      <h5 class="text-danger"> 22'50€</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="info">
+                  <div class="icon icon-danger">
+                      <i class="nc-icon nc-user-run"></i>
+                  </div>
+                  <div class="description">
+                      <h4 class="info-title">Fast-pass</h4>
+                      <p class="description">En el parque contamos con un bono fast-pass para evitar colas.
+                      </p>
+                      <h5 class="text-danger"> 15'00€</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="info">
+                  <div class="icon icon-danger">
+                      <i class="nc-icon nc-cart-simple"></i>
+                  </div>
+                  <div class="description">
+                      <h4 class="info-title">Entrada + fast-pass</h4>
+                      <p class="description">Si lo desea, puede adquirir la entrada junto al fast-pass.
+                      </p>
+                      <h5 class="text-danger"> 35'00€</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br/><br/>
+  </div>
+</div>
+
+<div class="section landing-section section-gray text-center">
+        <div class="container">
+            <h2 class="title">Promociones</h2>
+            <app-promociones-list></app-promociones-list>
+        </div>
+    </div>
+</div>
