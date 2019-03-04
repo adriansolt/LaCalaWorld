@@ -3,7 +3,7 @@
         <div class="navbar-translate">
             <p><a class="navbar-brand d-none d-lg-block" [routerLink]="['/home']" routerLinkActive="router-link-active">Inicio</a></p>
             <button class="btn btn-info btn-link navbar-toggler navbar-burger" type="button" data-toggle="collapse"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"
+                data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"
                 (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -30,57 +30,60 @@
         </div>
         <div class="navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link navbar-brand" rel="tooltip" data-placement="bottom" [routerLink]="['/home']">
+                <li class="nav-item" >
+                    <a class="nav-link navbar-brand" rel="tooltip" data-placement="bottom" [routerLink]="['/home']"
+                        >
                         <span class="d-lg-none">Inicio</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link navbar-brand" rel="tooltip" data-placement="bottom" [routerLink]="['/parque']">
+                <li class="nav-item" >
+                    <a class="nav-link navbar-brand" rel="tooltip" data-placement="bottom" [routerLink]="['/parque']"
+                        >
                         <span class="d-lg-none">El parque</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" data-placement="bottom" [routerLink]="['/servicios']">
+                <li class="nav-item" >
+                    <a class="nav-link" rel="tooltip" data-placement="bottom" [routerLink]="['/servicios']" >
                         <span class="d-lg-none">Nuestra oferta</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" data-placement="bottom" [routerLink]="['/eventos']">
+                <li class="nav-item" >
+                    <a class="nav-link" rel="tooltip" data-placement="bottom" [routerLink]="['/eventos']" >
                         <span class="d-lg-none">Eventos</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" data-placement="bottom" [routerLink]="['/visitanos']">
+                <li class="nav-item" >
+                    <a class="nav-link" rel="tooltip" data-placement="bottom" [routerLink]="['/visitanos']" >
                         <span class="d-lg-none">Ven y visítanos</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" data-placement="bottom" [routerLink]="['/multimedia']">
+                <li class="nav-item" >
+                    <a class="nav-link" rel="tooltip" data-placement="bottom" [routerLink]="['/multimedia']" >
                         <span class="d-lg-none">Multimedia</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" >
                     <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/LaCalaWorld"
                         >
                         <i class="fa fa-twitter"></i>
                         <p class="d-lg-none">Twitter</p>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" >
                     <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/LaCalaWorld"
                         >
                         <i class="fa fa-facebook-square"></i>
                         <p class="d-lg-none">Facebook</p>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" >
                     <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/LaCalaWorld"
                         >
                         <i class="fa fa-instagram"></i>
                         <p class="d-lg-none">Instagram</p>
                     </a>
                 </li>
+
             </ul>
         </div>
     </div>

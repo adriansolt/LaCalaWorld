@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias": "lacalaworld.now.sh",
   "builds": [
     {
       "src": "package.json",
