@@ -23,6 +23,11 @@ import { EventoDetailComponent } from './components/eventos/evento-detail/evento
 import { ServiciosDetailComponent } from './components/servicios/servicios-detail/servicios-detail.component';
 import { PromocionesDetailComponent } from './components/visitanos/promociones-detail/promociones-detail.component';
 import { PromocionesListComponent } from './components/visitanos/promociones-list/promociones-list.component';
+import { EventosService } from './eventos.service';
+import { FotosService } from './fotos.service';
+import { PromocionesService } from './promociones.service';
+import { ServiciosService } from './servicios.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -50,12 +55,13 @@ import { PromocionesListComponent } from './components/visitanos/promociones-lis
     FormsModule,
     RouterModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    HttpClientModule
   ],
   entryComponents: [
     ModalComponent,
   ],
-  providers: [],
+  providers: [EventosService, FotosService, PromocionesService, ServiciosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
