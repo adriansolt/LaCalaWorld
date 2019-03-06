@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Foto } from '../../../foto';
 import { ModalComponent } from './modal/modal.component';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { FotosService } from 'src/app/fotos.service';
+import { FotosService } from '../../../fotos.service';
 
 @Component({
   selector: 'app-galeria',
